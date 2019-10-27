@@ -1,0 +1,30 @@
+{
+	"type": "DoubleTurret",
+	"name": "Red Turret",
+	"description": "Blop",
+	"health": 200,
+	"size": 1,
+	"reload": 5,
+	"range": 100,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0,
+	"rotatespeed": 2,
+	"ammo": {
+		"redstone": {
+			"speed": 10.0,
+			"damage": 8,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 3
+		}
+	},
+	"requirements": [
+		{ "item": "redstone", "amount": 40 },
+		{ "item": "copper", "amount": 70 },
+		{ "item": "graphite", "amount": 20}
+	],
+	"category": "turret",
+	"research": "duo"
+}
